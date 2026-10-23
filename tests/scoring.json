@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "weight_policy": {
+    "version": 1,
+    "basis": "business_priority",
+    "core_min_share": 0.5
+  },
+  "gate_tests": [
+    "test_outputs.py::test_allocations_match_global_optimum"
+  ],
+  "tests": {
+    "test_outputs.py::test_existing_inspect_mode_returns_zero": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证结算契约、边界、序列化或跨运行流水，缺失会使优化方案无法复核。"
+    },
+    "test_outputs.py::test_success_is_silent_and_creates_report": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证结算契约、边界、序列化或跨运行流水，缺失会使优化方案无法复核。"
+    },
+    "test_outputs.py::test_missing_argument_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证结算契约、边界、序列化或跨运行流水，缺失会使优化方案无法复核。"
+    },
+    "test_outputs.py::test_malformed_json_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证结算契约、边界、序列化或跨运行流水，缺失会使优化方案无法复核。"
+    },
+    "test_outputs.py::test_duplicate_top_level_key_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证结算契约、边界、序列化或跨运行流水，缺失会使优化方案无法复核。"
+    },
+    "test_outputs.py::test_top_level_array_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证结算契约、边界、序列化或跨运行流水，缺失会使优化方案无法复核。"
+    },
+    "test_outputs.py::test_missing_top_level_key_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证结算契约、边界、序列化或跨运行流水，缺失会使优化方案无法复核。"
+    },
+    "test_outputs.py::test_extra_top_level_key_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证结算契约、边界、序列化或跨运行流水，缺失会使优化方案无法复核。"
+    },
+    "test_outputs.py::test_schema_version_bool_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证结算契约、边界、序列化或跨运行流水，缺失会使优化方案无法复核。"
+    },
+    "test_outputs.py::test_unit_value_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证结算契约、边界、序列化或跨运行流水，缺失会使优化方案无法复核。"
+    },
+    "test_outputs.py::test_case_id_shape_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证结算契约、边界、序列化或跨运行流水，缺失会使优化方案无法复核。"
+    },
+    "test_outputs.py::test_too_few_products_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证结算契约、边界、序列化或跨运行流水，缺失会使优化方案无法复核。"
+    },
+    "test_outputs.py::test_duplicate_product_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证结算契约、边界、序列化或跨运行流水，缺失会使优化方案无法复核。"
+    },
+    "test_outputs.py::test_revenue_bool_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证结算契约、边界、序列化或跨运行流水，缺失会使优化方案无法复核。"
+    },
+    "test_outputs.py::test_max_batches_zero_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证结算契约、边界、序列化或跨运行流水，缺失会使优化方案无法复核。"
+    },
+    "test_outputs.py::test_max_batches_upper_boundary_accepted": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证结算契约、边界、序列化或跨运行流水，缺失会使优化方案无法复核。"
+    },
+    "test_outputs.py::test_resource_count_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证结算契约、边界、序列化或跨运行流水，缺失会使优化方案无法复核。"
+    },
+    "test_outputs.py::test_capacity_zero_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证结算契约、边界、序列化或跨运行流水，缺失会使优化方案无法复核。"
+    },
+    "test_outputs.py::test_too_few_settlements_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证结算契约、边界、序列化或跨运行流水，缺失会使优化方案无法复核。"
+    },
+    "test_outputs.py::test_duplicate_observation_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证结算契约、边界、序列化或跨运行流水，缺失会使优化方案无法复核。"
+    },
+    "test_outputs.py::test_allocation_missing_product_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证结算契约、边界、序列化或跨运行流水，缺失会使优化方案无法复核。"
+    },
+    "test_outputs.py::test_allocation_bool_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证结算契约、边界、序列化或跨运行流水，缺失会使优化方案无法复核。"
+    },
+    "test_outputs.py::test_usage_extra_resource_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证结算契约、边界、序列化或跨运行流水，缺失会使优化方案无法复核。"
+    },
+    "test_outputs.py::test_yield_matrix_recovered": {
+      "weight": 0.22,
+      "priority": "core",
+      "rationale": "核心优化结果必须同时满足聚合反演、整数可行性、目标最优和资源复算，直接影响采购决策。"
+    },
+    "test_outputs.py::test_objective_matches_selected_batches": {
+      "weight": 0.22,
+      "priority": "core",
+      "rationale": "核心优化结果必须同时满足聚合反演、整数可行性、目标最优和资源复算，直接影响采购决策。"
+    },
+    "test_outputs.py::test_resource_usage_matches_yield_matrix": {
+      "weight": 0.22,
+      "priority": "core",
+      "rationale": "核心优化结果必须同时满足聚合反演、整数可行性、目标最优和资源复算，直接影响采购决策。"
+    },
+    "test_outputs.py::test_report_exact_keys": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证结算契约、边界、序列化或跨运行流水，缺失会使优化方案无法复核。"
+    },
+    "test_outputs.py::test_solver_declares_branch_and_bound": {
+      "weight": 0.22,
+      "priority": "core",
+      "rationale": "核心优化结果必须同时满足聚合反演、整数可行性、目标最优和资源复算，直接影响采购决策。"
+    },
+    "test_outputs.py::test_compact_json_and_trailing_newline": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证结算契约、边界、序列化或跨运行流水，缺失会使优化方案无法复核。"
+    },
+    "test_outputs.py::test_checksum_matches_result": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证结算契约、边界、序列化或跨运行流水，缺失会使优化方案无法复核。"
+    },
+    "test_outputs.py::test_journal_first_run_appends_one": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证结算契约、边界、序列化或跨运行流水，缺失会使优化方案无法复核。"
+    },
+    "test_outputs.py::test_journal_repeat_is_idempotent": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证结算契约、边界、序列化或跨运行流水，缺失会使优化方案无法复核。"
+    },
+    "test_outputs.py::test_failure_preserves_existing_outputs": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证结算契约、边界、序列化或跨运行流水，缺失会使优化方案无法复核。"
+    },
+    "test_outputs.py::test_normal_case_finishes_within_three_seconds": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证结算契约、边界、序列化或跨运行流水，缺失会使优化方案无法复核。"
+    }
+  }
+}
